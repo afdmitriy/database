@@ -1,5 +1,5 @@
---7. Показать поля PersonType, NameStyle, Title, FirstName, MiddleName, LastName из таблицы Person.Person. Неизвестные значения поля Title заменить на 'Dear' (уважаемый).
---Названия полей оставить без изменений.
+--7. РџРѕРєР°Р·Р°С‚СЊ РїРѕР»СЏ PersonType, NameStyle, Title, FirstName, MiddleName, LastName РёР· С‚Р°Р±Р»РёС†С‹ Person.Person. РќРµРёР·РІРµСЃС‚РЅС‹Рµ Р·РЅР°С‡РµРЅРёСЏ РїРѕР»СЏ Title Р·Р°РјРµРЅРёС‚СЊ РЅР° 'Dear' (СѓРІР°Р¶Р°РµРјС‹Р№).
+--РќР°Р·РІР°РЅРёСЏ РїРѕР»РµР№ РѕСЃС‚Р°РІРёС‚СЊ Р±РµР· РёР·РјРµРЅРµРЅРёР№.
 SELECT PersonType
      , NameStyle
 	 , ISNULL (Title, 'Dear') AS Title

@@ -1,5 +1,5 @@
---6. Показать ID (StateProvinceID) и название (Name) регионов или штатов, а также ID страны, на территории которой они располагаются (TerritoryID) из таблицы Person.StateProvince.
---Показать только регионы из списка ('Alaska', 'Alabama', 'Colorado', 'Georgia', 'Iowa'), используя оператор IN.
+--6. РџРѕРєР°Р·Р°С‚СЊ ID (StateProvinceID) Рё РЅР°Р·РІР°РЅРёРµ (Name) СЂРµРіРёРѕРЅРѕРІ РёР»Рё С€С‚Р°С‚РѕРІ, Р° С‚Р°РєР¶Рµ ID СЃС‚СЂР°РЅС‹, РЅР° С‚РµСЂСЂРёС‚РѕСЂРёРё РєРѕС‚РѕСЂРѕР№ РѕРЅРё СЂР°СЃРїРѕР»Р°РіР°СЋС‚СЃСЏ (TerritoryID) РёР· С‚Р°Р±Р»РёС†С‹ Person.StateProvince.
+--РџРѕРєР°Р·Р°С‚СЊ С‚РѕР»СЊРєРѕ СЂРµРіРёРѕРЅС‹ РёР· СЃРїРёСЃРєР° ('Alaska', 'Alabama', 'Colorado', 'Georgia', 'Iowa'), РёСЃРїРѕР»СЊР·СѓСЏ РѕРїРµСЂР°С‚РѕСЂ IN.
 SELECT StateProvinceID, Name, TerritoryID
 FROM Person.StateProvince
 WHERE Name in ('Alaska', 'Alabama', 'Colorado', 'Georgia', 'Iowa');

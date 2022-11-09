@@ -1,4 +1,4 @@
---5. Показать ID (ProductID), название (Name) и цвет (Color) товаров из таблицы Production.Product, содержащих в названии слово 'Chainring' (звездочка).
+--5. РџРѕРєР°Р·Р°С‚СЊ ID (ProductID), РЅР°Р·РІР°РЅРёРµ (Name) Рё С†РІРµС‚ (Color) С‚РѕРІР°СЂРѕРІ РёР· С‚Р°Р±Р»РёС†С‹ Production.Product, СЃРѕРґРµСЂР¶Р°С‰РёС… РІ РЅР°Р·РІР°РЅРёРё СЃР»РѕРІРѕ 'Chainring' (Р·РІРµР·РґРѕС‡РєР°).
 SELECT ProductID, Name, Color
 FROM Production.Product
 WHERE Name like '%chainring%';
