@@ -1,5 +1,5 @@
--- 5. Показать товары, цена которых больше средней цены в любой модели продуктов (Таблица Production.Product). 
---    Показать поля [Name], ListPrice и ProductModelID.
+-- 5. РџРѕРєР°Р·Р°С‚СЊ С‚РѕРІР°СЂС‹, С†РµРЅР° РєРѕС‚РѕСЂС‹С… Р±РѕР»СЊС€Рµ СЃСЂРµРґРЅРµР№ С†РµРЅС‹ РІ Р»СЋР±РѕР№ РјРѕРґРµР»Рё РїСЂРѕРґСѓРєС‚РѕРІ (РўР°Р±Р»РёС†Р° Production.Product). 
+--    РџРѕРєР°Р·Р°С‚СЊ РїРѕР»СЏ [Name], ListPrice Рё ProductModelID.
 
 SELECT [Name], ListPrice, ProductModelID
 FROM Production.Product
