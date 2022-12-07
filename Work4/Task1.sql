@@ -1,4 +1,4 @@
--- 1. Показать Фамилию Имя и Отчество самого пожилого сотрудника (Таблицы HumanResources.Employee и Person.Person). Показать поля FirstName, MiddleName, LastName. 
+-- 1. РџРѕРєР°Р·Р°С‚СЊ Р¤Р°РјРёР»РёСЋ РРјСЏ Рё РћС‚С‡РµСЃС‚РІРѕ СЃР°РјРѕРіРѕ РїРѕР¶РёР»РѕРіРѕ СЃРѕС‚СЂСѓРґРЅРёРєР° (РўР°Р±Р»РёС†С‹ HumanResources.Employee Рё Person.Person). РџРѕРєР°Р·Р°С‚СЊ РїРѕР»СЏ FirstName, MiddleName, LastName. 
 
 SELECT p.FirstName ,p.MiddleName ,p.LastName ,DATEDIFF(YEAR,e.BirthDate,GETDATE()) AS Age 
 FROM Person.Person AS p 
